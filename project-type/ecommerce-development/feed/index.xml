@@ -1,0 +1,86 @@
+
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ecommerce Development Archives - Leading Design and Development Agency</title>
+	<atom:link href="/project-type/ecommerce-development/feed/" rel="self" type="application/rss+xml" />
+	<link>/project-type/ecommerce-development/</link>
+	<description>Design, Develop, Dominate.</description>
+	<lastBuildDate>Tue, 25 Jun 2024 16:45:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2024/07/cropped-connecting-matrix-logo-4-32x32.png</url>
+	<title>Ecommerce Development Archives - Leading Design and Development Agency</title>
+	<link>/project-type/ecommerce-development/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Kirrin Finch</title>
+		<link>/portfolio/kirrin-finch/</link>
+					<comments>/portfolio/kirrin-finch/#respond</comments>
+		
+		<dc:creator><![CDATA[maham]]></dc:creator>
+		<pubDate>Tue, 25 Jun 2024 16:11:11 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=portfolio#038;p=6169</guid>
+
+					<description><![CDATA[<p>The post <a href="/portfolio/kirrin-finch/">Kirrin Finch</a> appeared first on <a href="/">Leading Design and Development Agency</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>The post <a href="/portfolio/kirrin-finch/">Kirrin Finch</a> appeared first on <a href="/">Leading Design and Development Agency</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/portfolio/kirrin-finch/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Miche</title>
+		<link>/portfolio/miche/</link>
+					<comments>/portfolio/miche/#respond</comments>
+		
+		<dc:creator><![CDATA[maham]]></dc:creator>
+		<pubDate>Tue, 25 Jun 2024 14:01:43 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=portfolio#038;p=6102</guid>
+
+					<description><![CDATA[<p>The post <a href="/portfolio/miche/">Miche</a> appeared first on <a href="/">Leading Design and Development Agency</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>The post <a href="/portfolio/miche/">Miche</a> appeared first on <a href="/">Leading Design and Development Agency</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/portfolio/miche/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Helm Boots</title>
+		<link>/portfolio/helm-boots/</link>
+		
+		<dc:creator><![CDATA[maham]]></dc:creator>
+		<pubDate>Tue, 25 Jun 2024 13:43:04 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=portfolio#038;p=6078</guid>
+
+					<description><![CDATA[<p>The post <a href="/portfolio/helm-boots/">Helm Boots</a> appeared first on <a href="/">Leading Design and Development Agency</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>The post <a href="/portfolio/helm-boots/">Helm Boots</a> appeared first on <a href="/">Leading Design and Development Agency</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
