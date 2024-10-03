@@ -124,13 +124,13 @@
 			<image:loc>/wp-content/uploads/2019/09/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg</image:loc>
 		</image:image>
 	</url>
-	<url>
+	<!-- <url>
 		<loc>/blogs/</loc>
 		<lastmod>2024-07-21T15:11:15+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2019/09/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg</image:loc>
 		</image:image>
-	</url>
+	</url> -->
 	<url>
 		<loc>/request-a-free-quote/</loc>
 		<lastmod>2024-07-31T13:42:31+00:00</lastmod>

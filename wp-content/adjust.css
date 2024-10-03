@@ -1,0 +1,28 @@
+#fws_66fd5018b824e .wpb_wrapper {
+  gap: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#work .load-more-wrap {
+  display: none;
+}
+
+#work .nectar-post-grid-wrap.loading .nectar-post-grid {
+  opacity: 1;
+}
+
+.wpb_row .nectar-post-grid-filters[data-active-color="accent-color"] a:after {
+  background-color: transparent !important;
+}
+
+.nectar-view-indicator {
+  display: none;
+}
+
+.menu-item.menu-item-type-post_type.menu-item-object-page.button_solid_color.menu-item-6264
+  a
+  span {
+  display: block;
+  min-width: max-content;
+}
