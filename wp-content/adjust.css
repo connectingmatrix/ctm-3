@@ -12,6 +12,10 @@
   opacity: 1;
 }
 
+.main-hero-btn{
+    display: flex;
+}
+
 .wpb_row .nectar-post-grid-filters[data-active-color="accent-color"] a:after {
   background-color: transparent !important;
 }
@@ -25,4 +29,50 @@
   span {
   display: block;
   min-width: max-content;
+}
+
+#request-a-free-quote-form{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+
+#request-a-free-quote-form .submit-button,
+#recruitment-form .submit-button
+{
+    max-width: fit-content;
+}
+
+/* #request-a-free-quote-form .form-group{
+    margin: ;
+} */
+
+#request-a-free-quote-form .form-group > label{
+    font-weight: bold;
+}
+
+#recruitment-form{
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
+}
+
+#recruitment-form .form-group{
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+}
+
+#recruitment-form .form-group > label{
+  font-weight: bold;
+  display: block;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 600px) {
+    .main-hero-btn{
+        flex-direction: column;
+        gap: .3rem;
+        align-items: center;
+    }
 }
