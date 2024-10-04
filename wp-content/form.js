@@ -23,7 +23,6 @@ const getFormData = async (type) => {
     formId = RECRUITMENT_FORM;
   }
   const response = await getFormQuestions(formId);
-  console.log(response);
   if (response && response.data && response.data.content) {
     const formattedData = Object.keys(response.data.content)
       .map((key) => {
@@ -57,7 +56,6 @@ const getFormData = async (type) => {
 
 const populateForm = (formData, type) => {
   const form = document.getElementById(type);
-  console.log(formData);
   formData.forEach((field) => {
     const formGroup = document.createElement("div");
     formGroup.className = "form-group";
@@ -78,7 +76,7 @@ const populateForm = (formData, type) => {
       defaultOpt.innerText = "Please Select Option";
       defaultOpt.selected = true;
       defaultOpt.disabled = true;
-      input.appendChild(defaultOpt)
+      input.appendChild(defaultOpt);
       field.options.forEach((option) => {
         const opt = document.createElement("option");
         opt.value = option;
@@ -116,8 +114,8 @@ const populateForm = (formData, type) => {
       input.required = true;
       input.accept = ".pdf, .doc, .docx";
       let allowed = document.createElement("small");
-      allowed.innerHTML = "Allowed Type(s): .pdf, .doc, .docx",
-      formGroup.appendChild(input);
+      (allowed.innerHTML = "Allowed Type(s): .pdf, .doc, .docx"),
+        formGroup.appendChild(input);
       formGroup.appendChild(allowed);
     } else if (field.type === "checkbox") {
       input = document.createElement("input");
@@ -170,27 +168,16 @@ const populateForm = (formData, type) => {
 
 const sendFormData = async (type) => {
   let formId;
-  let header = {};
   if (type === "request-a-free-quote-form") {
     formId = REQUEST_A_FREE_QUOTE_FORM;
   } else if (type === "recruitment-form") {
     formId = RECRUITMENT_FORM;
-    // header = {
-    //   headers: {
-    //     "Content-Type": "multipart/form-data",
-    //   },
-    // };
   }
   const form = document.getElementById(type);
   const formData = new FormData(form);
   let data = {};
   for (const [key, value] of formData.entries()) {
-    // if (value instanceof File) {
-      // const blob = new Blob([value], { type: value.type });
-      // data[key] = blob;
-    // } else {
-      data[key] = value;
-    // }
+    data[key] = value;
   }
 
   let response;
@@ -200,10 +187,8 @@ const sendFormData = async (type) => {
       "https://api.jotform.com/form/" +
         formId +
         "/submissions?apiKey=df1f94ca96ff06e7b30c6adf23b8cb10",
-      data,
-      { ...header }
+      data
     );
-    // console.log("Form submitted successfully:", response.data);
     form.reset();
   } catch (error) {
     console.error("Error submitting form:", error);
